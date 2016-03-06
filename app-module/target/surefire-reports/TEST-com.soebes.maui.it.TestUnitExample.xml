@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="com.soebes.maui.it.TestUnitExample" time="0.015" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.soebes.maui.it.TestUnitExample" time="0.008" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_65\jre\bin"/>
@@ -64,30 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="junit.framework.TestSuite$1" name="warning" time="0.015">
-    <failure message="No tests found in com.soebes.maui.it.TestUnitExample" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: No tests found in com.soebes.maui.it.TestUnitExample
-	at junit.framework.Assert.fail(Assert.java:47)
-	at junit.framework.TestSuite$1.runTest(TestSuite.java:97)
-	at junit.framework.TestCase.runBare(TestCase.java:134)
-	at junit.framework.TestResult$1.protect(TestResult.java:110)
-	at junit.framework.TestResult.runProtected(TestResult.java:128)
-	at junit.framework.TestResult.run(TestResult.java:113)
-	at junit.framework.TestCase.run(TestCase.java:124)
-	at junit.framework.TestSuite.runTest(TestSuite.java:232)
-	at junit.framework.TestSuite.run(TestSuite.java:227)
-	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:83)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:236)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:134)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:113)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:497)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
-</failure>
-  </testcase>
+  <testcase classname="com.soebes.maui.it.TestUnitExample" name="successTestA" time="0"/>
+  <testcase classname="com.soebes.maui.it.TestUnitExample" name="successTestB" time="0"/>
+  <testcase classname="com.soebes.maui.it.TestUnitExample" name="successTestC" time="0"/>
 </testsuite>

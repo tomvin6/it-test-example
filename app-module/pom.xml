@@ -140,4 +140,17 @@
             </plugin>
         </plugins>
     </reporting>
+    <repositories>
+        <repository>
+            <id>mqm-public</id>
+            <url>http://mydtbld0051.hpeswlab.net:8081/nexus/content/repositories/mqm-public</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>mqm-public</id>
+            <url>http://mydtbld0051.hpeswlab.net:8081/nexus/content/repositories/mqm-public</url>
+        </pluginRepository>
+    </pluginRepositories>
 </project>

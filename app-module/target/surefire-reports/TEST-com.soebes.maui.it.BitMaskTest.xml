@@ -64,9 +64,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.soebes.maui.it.BitMaskTest" name="adhocBitTest" time="0.013"/>
-  <testcase classname="com.soebes.maui.it.BitMaskTest" name="setBitNumberTest" time="0.001"/>
-  <testcase classname="com.soebes.maui.it.BitMaskTest" name="checkFirstBitTest" time="0"/>
+  <testcase classname="com.soebes.maui.it.BitMaskTest" name="checkFirstBitTest" time="0.013"/>
   <testcase classname="com.soebes.maui.it.BitMaskTest" name="checkNumberBitTest" time="0.001"/>
   <testcase classname="com.soebes.maui.it.BitMaskTest" name="unsetBitNumberTest" time="0.001"/>
+  <testcase classname="com.soebes.maui.it.BitMaskTest" name="adhocBitTest" time="0"/>
+  <testcase classname="com.soebes.maui.it.BitMaskTest" name="setBitNumberTest" time="0.001"/>
 </testsuite>
