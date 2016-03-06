@@ -1,0 +1,27 @@
+#surefire
+#Sun Mar 06 14:31:14 IST 2016
+testClassesDirectory=C\:\\Users\\vaingart\\workspace\\it-example-app\\app-module\\target\\test-classes
+classPathUrl.4=C\:\\Users\\vaingart\\.m2\\repository\\com\\soebes\\maui\\it-report-cc-test-example\\0.1.0-SNAPSHOT\\it-report-cc-test-example-0.1.0-SNAPSHOT.jar
+forkMode=once
+classPathUrl.3=C\:\\Users\\vaingart\\.m2\\repository\\com\\hp\\mqm\\nga-surefire-listener\\12.53.1-SNAPSHOT\\nga-surefire-listener-12.53.1-SNAPSHOT.jar
+classPathUrl.2=C\:\\Users\\vaingart\\.m2\\repository\\junit\\junit\\4.8.1\\junit-4.8.1.jar
+useManifestOnlyJar=true
+classPathUrl.1=C\:\\Users\\vaingart\\workspace\\it-example-app\\app-module\\target\\classes
+reportsDirectory=C\:\\Users\\vaingart\\workspace\\it-example-app\\app-module\\target\\surefire-reports
+classPathUrl.0=C\:\\Users\\vaingart\\workspace\\it-example-app\\app-module\\target\\test-classes
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=C\:\\Users\\vaingart\\workspace\\it-example-app\\app-module\\src\\test\\java
+listener=com.hp.mqm.listeners.surefire.JUnitListener
+surefireClassPathUrl.1=C\:\\Users\\vaingart\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.12\\surefire-api-2.12.jar
+surefireClassPathUrl.0=C\:\\Users\\vaingart\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit4\\2.12\\surefire-junit4-2.12.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+runStatisticsFile=C\:\\Users\\vaingart\\workspace\\it-example-app\\app-module\\.surefire-A2A652EF98B490E3B265482ADE5FAFE4AFC2A5E6
+includes0=**/Test*.java
+childDelegation=false
