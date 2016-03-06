@@ -24,9 +24,16 @@
         <processorPath useClasspath="true" />
         <module name="it-test" />
       </profile>
+      <profile default="false" name="Annotation profile for app-module" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="app-module" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="app-module" target="1.5" />
+      <module name="app-module" target="1.6" />
       <module name="it-example-app" target="1.6" />
       <module name="it-test" target="1.6" />
     </bytecodeTargetLevel>

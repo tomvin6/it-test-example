@@ -14,7 +14,7 @@
         <module>app-module</module>
     </modules>
 
-    <name>MaUI Test Guide :: Integration Report Code Coverage Test Example</name>
+    <name>Main App POM</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
