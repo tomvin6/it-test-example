@@ -16,6 +16,7 @@ public class AnotherIT {
     public void checkNumberBitTest() {
         BitMask bm = new BitMask(0x8000000000000000L);
         bm.methodToPassITestA(); //add dependency
+        assertEquals(false,true);
     }
 
     /*
