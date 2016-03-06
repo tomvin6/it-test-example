@@ -115,7 +115,7 @@
         </dependency>
     </dependencies>
 
-    <reporting>
+<!--    <reporting>
         <plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -135,7 +135,7 @@
                 </reportSets>
             </plugin>
         </plugins>
-    </reporting>
+    </reporting>-->
 
     <repositories>
         <repository>
