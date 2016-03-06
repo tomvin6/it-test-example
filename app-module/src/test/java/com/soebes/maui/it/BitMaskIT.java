@@ -12,14 +12,6 @@ public class BitMaskIT {
         assertEquals(true, bm.isBitSet(63));
     }
 
-    @Test
-    public void checkNumberBitTest() {
-        for (int bitNumber = 0; bitNumber < 32; bitNumber++) {
-            long bitMask = Long.rotateLeft(1, bitNumber);
-            BitMask bm = new BitMask(bitMask);
-            assertEquals(true, bm.isBitSet(bitNumber));
-        }
-    }
 /*
 
     @Test
