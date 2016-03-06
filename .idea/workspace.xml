@@ -81,7 +81,7 @@
     <favorites_list name="it-example-app" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.55017793">
+    <splitter split-orientation="horizontal" split-proportion="0.48256227">
       <split-first>
         <leaf>
           <file leaf-file-name="AnotherIT.java" pinned="false" current-in-tab="false">
@@ -148,11 +148,9 @@
           <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/it-test/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.46733668">
-                  <caret line="122" column="43" selection-start-line="122" selection-start-column="43" selection-end-line="122" selection-end-column="43" />
-                  <folding>
-                    <marker date="1457266261900" expanded="true" signature="4560:5403" placeholder="..." />
-                  </folding>
+                <state vertical-scroll-proportion="0.35678393">
+                  <caret line="91" column="71" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -164,11 +162,9 @@
           <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app-module/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.11356784">
-                  <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="141" selection-end-column="16" />
-                  <folding>
-                    <marker date="1457266266267" expanded="true" signature="4580:5423" placeholder="..." />
-                  </folding>
+                <state vertical-scroll-proportion="0.5115578">
+                  <caret line="95" column="40" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -176,11 +172,9 @@
           <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-5.774194">
-                  <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
-                  <folding>
-                    <marker date="1457266261211" expanded="true" signature="5387:6230" placeholder="..." />
-                  </folding>
+                <state vertical-scroll-proportion="-6.483871">
+                  <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -849,31 +843,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/it-test/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46733668">
-          <caret line="122" column="43" selection-start-line="122" selection-start-column="43" selection-end-line="122" selection-end-column="43" />
-          <folding>
-            <marker date="1457266261900" expanded="true" signature="4560:5403" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.35678393">
+          <caret line="91" column="71" selection-start-line="91" selection-start-column="71" selection-end-line="91" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.774194">
-          <caret line="125" column="21" selection-start-line="125" selection-start-column="21" selection-end-line="125" selection-end-column="21" />
-          <folding>
-            <marker date="1457266261211" expanded="true" signature="5387:6230" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-6.483871">
+          <caret line="104" column="31" selection-start-line="104" selection-start-column="31" selection-end-line="104" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11356784">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="141" selection-end-column="16" />
-          <folding>
-            <marker date="1457266266267" expanded="true" signature="4580:5423" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.5115578">
+          <caret line="95" column="40" selection-start-line="95" selection-start-column="40" selection-end-line="95" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
