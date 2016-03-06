@@ -17,8 +17,8 @@ public class AnotherIT {
         BitMask bm = new BitMask(0x8000000000000000L);
         bm.methodToPassITestA(); //add dependency
     }
-/*
 
+    /*
     @Test
     public void setBitNumberTest() {
         BitMask bm = new BitMask();
