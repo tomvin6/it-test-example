@@ -34,12 +34,18 @@ public class BitMask {
         bitMaskValue ^= bitMask;
     }
 
-    public void methodToPass() {
+    public void methodToPassUTestA() {
         System.out.println("1");
         System.out.println("2");
         System.out.println("3");
-        System.out.println("4");
     }
+
+    public void methodToPassITestA() {
+        System.out.println("1");
+        System.out.println("2");
+        System.out.println("3");
+    }
+
     public boolean isBitSet(int bit) {
         long bitMask = Long.rotateLeft(1, bit);
         long result = this.bitMaskValue & bitMask;

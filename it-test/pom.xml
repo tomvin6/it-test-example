@@ -110,7 +110,7 @@
         </dependency>
         <dependency>
             <groupId>com.soebes.maui</groupId>
-            <artifactId>it-report-cc-test-example</artifactId>
+            <artifactId>app-module</artifactId>
             <version>0.1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
