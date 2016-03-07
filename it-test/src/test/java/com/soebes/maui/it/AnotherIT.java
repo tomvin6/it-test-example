@@ -7,42 +7,22 @@ import static junit.framework.Assert.assertEquals;
 public class AnotherIT {
 
     @Test
-    public void checkFirstBitTest() {
-        BitMask bm = new BitMask(0x8000000000000000L);
-        assertEquals(true, bm.isBitSet(63));
+    public void successIntegrationTestA() {
+        SubjectClass sc = new SubjectClass();
+        sc.subjectMethodB();
+        assertEquals(true, true);
     }
 
     @Test
-    public void checkNumberBitTest() {
+    public void failIntegrationTestB() {
         BitMask bm = new BitMask(0x8000000000000000L);
         bm.methodToPassITestA(); //add dependency
         assertEquals(false,true);
     }
 
-    /*
-    @Test
-    public void setBitNumberTest() {
-        BitMask bm = new BitMask();
-        for (int bitNumber = 0; bitNumber < 32; bitNumber++) {
-            bm.setBit(bitNumber);
-            assertEquals(true, bm.isBitSet(bitNumber));
-        }
-    }
 
     @Test
-    public void unsetBitNumberTest() {
-        BitMask bm = new BitMask();
-        for (int bitNumber = 0; bitNumber < 64; bitNumber++) {
-            bm.setBit(bitNumber);
-        }
-        for (int bitNumber = 0; bitNumber < 64; bitNumber++) {
-            bm.unsetBit(bitNumber);
-            assertEquals(false, bm.isBitSet(bitNumber));
-        }
-    }
-*/
-    @Test
-    public void adhocBitTest() {
+    public void successIntegrationTestB() {
         BitMask bm = new BitMask(0xffffffffffffffffL);
 //        System.out.println("Value: "
 //                + Long.toBinaryString(bm.getBitMaskValue()));

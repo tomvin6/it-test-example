@@ -11,11 +11,15 @@ public class TestUnitExample {
 
     @Test
     public void successUnitTestA() {
+        BitMask bm = new BitMask(1);
+        bm.methodToPassUTestA();
         assertEquals(true, true);
     }
 
     @Test
-    public void checkNumberBitTest() {
-        assertEquals(true, true);
+    public void FailUnitTestA() {
+        SubjectClass sc = new SubjectClass();
+        sc.subjectMethodA();
+        assertEquals(true, false);
     }
 }

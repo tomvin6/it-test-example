@@ -12,29 +12,6 @@ public class BitMaskIT {
         assertEquals(true, bm.isBitSet(63));
     }
 
-/*
-
-    @Test
-    public void setBitNumberTest() {
-        BitMask bm = new BitMask();
-        for (int bitNumber = 0; bitNumber < 32; bitNumber++) {
-            bm.setBit(bitNumber);
-            assertEquals(true, bm.isBitSet(bitNumber));
-        }
-    }
-
-    @Test
-    public void unsetBitNumberTest() {
-        BitMask bm = new BitMask();
-        for (int bitNumber = 0; bitNumber < 64; bitNumber++) {
-            bm.setBit(bitNumber);
-        }
-        for (int bitNumber = 0; bitNumber < 64; bitNumber++) {
-            bm.unsetBit(bitNumber);
-            assertEquals(false, bm.isBitSet(bitNumber));
-        }
-    }
-*/
     @Test
     public void adhocBitTest() {
         BitMask bm = new BitMask(0xffffffffffffffffL);
