@@ -87,7 +87,7 @@
           <file leaf-file-name="AnotherIT.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/it-test/src/test/java/com/soebes/maui/it/AnotherIT.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3859649">
+                <state vertical-scroll-proportion="0.46153846">
                   <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
                   <folding>
                     <element signature="imports" expanded="true" />
@@ -162,7 +162,7 @@
           <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app-module/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.42311558">
+                <state vertical-scroll-proportion="0.5090689">
                   <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
                   <folding />
                 </state>
@@ -246,10 +246,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1929" />
-    <option name="y" value="-129" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1218" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -734,8 +734,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1929" y="-129" width="1938" height="1218" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -841,7 +841,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app-module/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42311558">
+        <state vertical-scroll-proportion="0.5090689">
           <caret line="91" column="21" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
           <folding />
         </state>
@@ -857,7 +857,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/it-test/src/test/java/com/soebes/maui/it/AnotherIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3859649">
+        <state vertical-scroll-proportion="0.46153846">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
