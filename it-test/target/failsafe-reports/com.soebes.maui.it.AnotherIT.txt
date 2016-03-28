@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.soebes.maui.it.AnotherIT
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.17 sec <<< FAILURE! - in com.soebes.maui.it.AnotherIT
+failIntegrationTestB(com.soebes.maui.it.AnotherIT)  Time elapsed: 0.008 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<false> but was:<true>
+	at com.soebes.maui.it.AnotherIT.failIntegrationTestB(AnotherIT.java:20)
+
