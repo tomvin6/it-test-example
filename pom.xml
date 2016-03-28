@@ -24,12 +24,12 @@
     <build>
                 <pluginManagement>
                     <plugins>
-                        <plugin>
+<!--                        <plugin>
                             <groupId>org.apache.maven.plugins</groupId>
                             <artifactId>maven-site-plugin</artifactId>
                             <version>3.1</version>
-                        </plugin>
-                        <plugin>
+                        </plugin>-->
+<!--                        <plugin>
                             <groupId>org.apache.maven.plugins</groupId>
                             <artifactId>maven-compiler-plugin</artifactId>
                             <version>2.3.2</version>
@@ -37,7 +37,7 @@
                                 <source>1.6</source>
                                 <target>1.6</target>
                             </configuration>
-                        </plugin>
+                        </plugin>-->
                         <plugin>
                             <groupId>org.apache.maven.plugins</groupId>
                             <artifactId>maven-failsafe-plugin</artifactId>
@@ -75,10 +75,10 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
             </plugin>
-            <plugin>
+<!--            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-            </plugin>
+            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-failsafe-plugin</artifactId>
@@ -131,7 +131,7 @@
         </dependency>
     </dependencies>
 
-    <reporting>
+ <!--   <reporting>
         <plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -151,7 +151,7 @@
                 </reportSets>
             </plugin>
         </plugins>
-    </reporting>
+    </reporting>-->
     <repositories>
         <repository>
             <id>mqm-public</id>
