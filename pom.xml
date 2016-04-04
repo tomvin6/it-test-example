@@ -64,10 +64,36 @@
                         <target>1.7</target>
                     </configuration>
                 </plugin>
+                <plugin>
+                    <groupId>org.hp</groupId>
+                    <artifactId>maven-nga-report-plugin</artifactId>
+                    <version>1.0-SNAPSHOT</version>
+                    <executions>
+                        <execution>
+                            <phase>verify</phase>
+                            <goals>
+                                <goal>json-report</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
             </plugins>
         </pluginManagement>
 
         <plugins>
+            <plugin>
+                <groupId>org.hp</groupId>
+                <artifactId>maven-nga-report-plugin</artifactId>
+                <version>1.0-SNAPSHOT</version>
+                <executions>
+                    <execution>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>json-report</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
