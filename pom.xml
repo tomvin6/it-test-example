@@ -208,6 +208,10 @@
             <id>mqm-public</id>
             <url>http://mydtbld0051.hpeswlab.net:8081/nexus/content/repositories/mqm-public</url>
         </repository>
+        <repository>
+            <id>my-local-repo</id>
+            <url>C:\Users\vaingart\.m2\repository\org\hp</url>
+        </repository>
     </repositories>
 
     <pluginRepositories>
