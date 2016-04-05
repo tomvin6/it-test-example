@@ -72,7 +72,7 @@
                         <execution>
                             <phase>verify</phase>
                             <goals>
-                                <goal>sayhi</goal>
+                                <goal>publish</goal>
                             </goals>
                         </execution>
                     </executions>
@@ -89,7 +89,7 @@
                     <execution>
                         <phase>verify</phase>
                         <goals>
-                            <goal>sayhi</goal>
+                            <goal>publish</goal>
                         </goals>
                     </execution>
                 </executions>
