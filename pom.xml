@@ -65,14 +65,14 @@
                     </configuration>
                 </plugin>
                 <plugin>
-                    <groupId>org.hp</groupId>
-                    <artifactId>maven-nga-report-plugin</artifactId>
+                    <groupId>org.hp.mojo</groupId>
+                    <artifactId>maven-ngamojo-plugin</artifactId>
                     <version>1.0-SNAPSHOT</version>
                     <executions>
                         <execution>
                             <phase>verify</phase>
                             <goals>
-                                <goal>json-report</goal>
+                                <goal>sayhi</goal>
                             </goals>
                         </execution>
                     </executions>
@@ -82,14 +82,14 @@
 
         <plugins>
             <plugin>
-                <groupId>org.hp</groupId>
-                <artifactId>maven-nga-report-plugin</artifactId>
+                <groupId>org.hp.mojo</groupId>
+                <artifactId>maven-ngamojo-plugin</artifactId>
                 <version>1.0-SNAPSHOT</version>
                 <executions>
                     <execution>
                         <phase>verify</phase>
                         <goals>
-                            <goal>json-report</goal>
+                            <goal>sayhi</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -222,6 +222,14 @@
         <pluginRepository>
             <id>mqm-public</id>
             <url>http://mydtbld0051.hpeswlab.net:8081/nexus/content/repositories/mqm-public</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>my-local-repo1</id>
+            <url>file:\\C:\Users\vaingart\.m2\repository\org\hp\maven-nga-report-plugin\1.0-SNAPSHOT</url>
+        </pluginRepository>
+        <pluginRepository>
+            <id>my-local-repo2</id>
+            <url>file://C:\Users\vaingart\.m2\repository\org\hp\maven-nga-report-plugin\1.0-SNAPSHOT</url>
         </pluginRepository>
     </pluginRepositories>
 </project>
