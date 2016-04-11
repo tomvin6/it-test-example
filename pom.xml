@@ -70,7 +70,7 @@
                     <version>1.0-SNAPSHOT</version>
                     <executions>
                         <execution>
-                            <phase>verify</phase>
+                            <!--<phase>verify</phase>-->
                             <goals>
                                 <goal>publish</goal>
                             </goals>
